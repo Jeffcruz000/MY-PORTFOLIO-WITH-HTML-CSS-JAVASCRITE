@@ -741,15 +741,17 @@ span{
       animation-delay: calc(var(--i)*0.5s);
 }
 
-.certifications {
-  margin-top: 3rem;
+.certifications-section{
+  margin-top: 2rem;
   text-align: center;
+  
 }
 
-.certifications h3 {
+.certifications-section h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: var(--hover-color);
+  
 }
 
 .cert-box {
