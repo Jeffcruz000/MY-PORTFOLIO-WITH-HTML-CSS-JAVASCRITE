@@ -283,6 +283,7 @@ span{
 }
 
 
+
 .btn-box .btn{
   
   display: inline-flex;
@@ -291,16 +292,17 @@ span{
   width: 150px;
   height: 100%;
   background: var(--hover-color);
-  color: var(--bg-color);
+  color: var(--text-color);
   font-size: 1rem;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 700;
   transition: .6s;
   box-shadow: var(--neon-box-shadow);
   border-radius: 5px;
   position: relative;overflow: hidden;
   z-index: 1;
   border: 2px solid var(--hover-color);
+   text-transform: uppercase;
   
 }
 
@@ -331,7 +333,7 @@ span{
 }
 
 .btn:nth-child(2):hover{
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .btn:nth-child(2)::before{
